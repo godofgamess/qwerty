@@ -13,4 +13,4 @@ for num in range(1, count_numbers +1 ):
             print('Число должно быть в диопозоне от 1 до 30000. Повторите ввод. \n') #Похоже нужен список
 
 
-print(min(numbers))
+print(min(int('numbers')))

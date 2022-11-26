@@ -7,6 +7,12 @@ count_numbers = int(input('Введите количество чисел в п�
 numbers_list = []
 for i in range(count_numbers):
     number = int(input('Введите число: '))
-    numbers_list.append(number)
+    if number == 2:
+        numbers_list.append(number)
+
+
+
+print(max(numbers_list))
+
 
 
